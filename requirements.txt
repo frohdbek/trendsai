@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pytrends
+google-genai
+python-dotenv
