@@ -90,7 +90,7 @@ trend-analiz-app/
 │   │   └── schemas.py       # Pydantic modelleri
 │   └── services/
 │       ├── trends_service.py # Google Trends veri çekme
-│       └── gemini_service.py # Gemini AI analizi
+│       └── groq_service.py   # Groq (LLM) analizi
 ├── frontend/
 │   └── index.html           # Minimal web arayüzü
 ├── start.bat                # Windows batch başlatıcı

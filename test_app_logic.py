@@ -1,5 +1,5 @@
 from app.services.trends_service import get_trend_data
-from app.services.gemini_service import analyze_data
+from app.services.groq_service import analyze_data
 import os
 from dotenv import load_dotenv
 
