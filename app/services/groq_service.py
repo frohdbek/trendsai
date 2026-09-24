@@ -208,7 +208,7 @@ def analyze_data(konu: str, data: dict) -> dict:
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.1,
-        "max_tokens": 1000,
+        "max_tokens": 2000,
 	"response_format": {"type": "json_object"},
     }
 
